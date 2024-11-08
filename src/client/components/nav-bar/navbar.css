@@ -1,0 +1,19 @@
+.navigation-bar {
+  position: fixed;
+  width: 100dvw;
+  height: 15dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.625rem;
+}
+
+.navigation-bar a {
+  font-size: 1.3rem;
+  opacity: 0.5;
+}
+
+.navigation-bar a.active {
+  opacity: 1;
+  color: var(--white-text);
+}

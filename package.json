@@ -1,0 +1,43 @@
+{
+  "name": "full-stack-js",
+  "version": "1.0.0",
+  "description": "A quick, full-stack JavaScript application template using Vite and Express for learning and testing purposes, with a pre-configured folder structure for easy setup.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon src/server/main.js -w src/server",
+    "start": "cross-env NODE_ENV=production node src/server/main.js",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.0.1",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2",
+    "vite-express": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leyinko/full-stack-js.git"
+  },
+  "keywords": [
+    "NPM",
+    "fullstack",
+    "frontend",
+    "backend",
+    "vite-express",
+    "vite",
+    "express",
+    "js",
+    "vanilla"
+  ],
+  "author": "Luca Giro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leyinko/full-stack-js/issues"
+  },
+  "homepage": "https://github.com/Leyinko/full-stack-js#readme"
+}

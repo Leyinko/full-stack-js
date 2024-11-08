@@ -1,0 +1,21 @@
+#fetch .logo:hover {
+  filter: drop-shadow(0 0 2em var(--white-text));
+}
+
+#fetch input {
+  position: relative;
+  cursor: text;
+  width: 190px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.384);
+}
+
+#fetch h2 {
+  font-size: 2em;
+}
+
+#response-container {
+  position: absolute;
+  width: 190px;
+  height: fit-content;
+}
