@@ -1,6 +1,10 @@
 {
   "name": "vite-fs-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "files": [
+    "*",
+    "**/*"
+  ],
   "description": "A quick, full-stack JavaScript application template using Vite and Express for learning and testing purposes, with a pre-configured folder structure for easy setup.",
   "main": "main.js",
   "scripts": {
