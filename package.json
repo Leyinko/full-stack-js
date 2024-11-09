@@ -1,5 +1,5 @@
 {
-  "name": "full-stack-js",
+  "name": "vite-fs-js",
   "version": "1.0.0",
   "description": "A quick, full-stack JavaScript application template using Vite and Express for learning and testing purposes, with a pre-configured folder structure for easy setup.",
   "main": "main.js",
