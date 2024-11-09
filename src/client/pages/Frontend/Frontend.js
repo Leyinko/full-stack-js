@@ -6,7 +6,7 @@ import './Frontend.css';
 export function Frontend() {
   const HTMLPageTemplate = `
 	<main id="home">
-		<img src="../../full-stack-js.png" class="logo" alt="JavaScript logo" href="https://github.com/Leyinko" target="_blank"/>
+		<img src="../../full-stack-js.png" class="logo" alt="JavaScript logo" href="https://github.com/Leyinko/full-stack-js" target="_blank"/>
     <h1>Hello Full Stack JS !</h1>
     <div class="card">
       <button id="things" type="button"></button>

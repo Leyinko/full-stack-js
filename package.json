@@ -2,6 +2,7 @@
   "name": "vite-fs-js",
   "version": "1.0.5",
   "description": "A quick, full-stack JavaScript application template using Vite and Express for learning and testing purposes, with a pre-configured folder structure for easy setup.",
+  "main": "main.js",
   "scripts": {
     "dev": "nodemon src/server/main.js -w src/server",
     "start": "cross-env NODE_ENV=production node src/server/main.js",
