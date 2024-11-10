@@ -17,11 +17,14 @@ const DEPLOYMENT = process.env.VITE_API_URL;
 const app = express();
 app.use(express.json()), app.use(cors());
 
+// Routes
+const routes = ['/test'];
+
 // Routers
 app.use('/api/test', testRouter);
 
 // Routes Error Controller
-app.use('/api', excludeRoutes(APIRouteNotFound, ['/test']));
+app.use('/api', excludeRoutes(APIRouteNotFound, routes));
 
 // General Error Handler
 app.use((err, req, res, next) => {

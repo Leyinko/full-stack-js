@@ -35,7 +35,10 @@ const sayPong = () => {
   };
 
   const fillContainer = (data) => {
-    (container.innerHTML = `<h2>${data}</h2>`), setTimeout(() => (container.innerHTML = ''), 1500), (input.value = '');
+    (container.innerHTML = `<h2>${data}</h2>`),
+      setTimeout(() => (container.innerHTML = ''), 1500),
+      (input.value = ''),
+      input.blur();
   };
 
   input.addEventListener('keydown', (e) => e.key === 'Enter' && getPong());
