@@ -28,4 +28,4 @@ app.use((err, req, res, next) => {
   return res.status(err.message || 500).json(err.message || 'Unexpected Error');
 });
 
-ViteExpress.listen(app, PORT, () => console.log(`Full Stack JS ➡ ${DEPLOYMENT}`));
+ViteExpress.listen(app, PORT, () => console.log(`Vite Full JS ➡ ${DEPLOYMENT}`));

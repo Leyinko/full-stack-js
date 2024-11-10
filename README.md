@@ -1,25 +1,25 @@
-# Full Stack JS
+# Vite Full JS
 
-![Frontend](https://res.cloudinary.com/drft9abh4/image/upload/v1731142187/Frontend_j1p8m7.png)
+![Frontend](https://res.cloudinary.com/drft9abh4/image/upload/v1731225987/Frontend_dkuq1u.png)
 
 ## Table of Contents
-1. Introduction
-2. Features
-3. Getting Started
-   - Prerequisites
-   - Installation
-4. Usage
-   - Running the Application
-   - Frontend
-   - Backend
-5. Testing Backend
-6. Customization
 
-# Full Stack JS Documentation
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+4. [Usage](#usage)
+   - [Running the Application](#running-the-application)
+   - [Project Structure](#project-structure)
+   - [Testing Backend](#testing-backend)
+5. [Customization](#customization)
+
+# Vite Full JS Documentation
 
 ## 1. Introduction
 
-Full Stack JS is a quick, full-stack JavaScript application template using Vite and Express. It's designed for learning, testing, and experimentation purposes, providing a pre-configured folder structure for easy setup. This template allows developers to quickly set up a Single Page Application (SPA) with both frontend and backend capabilities served from the same application.
+Vite Full JS is a quick, full-stack JavaScript application template using Vite and Express. It's designed for learning, testing, and experimentation purposes, providing a pre-configured folder structure for easy setup. This template allows developers to quickly set up a Single Page Application (SPA) with both frontend and backend capabilities served from the same application.
 
 ## 2. Features
 
@@ -35,23 +35,30 @@ Full Stack JS is a quick, full-stack JavaScript application template using Vite 
 
 ### Prerequisites
 
-- Node.js (version X.X.X or higher)
-- npm (version X.X.X or higher)
+Note: Make sure you have Node.js and NPM installed on your system before running these commands.
 
 ### Installation
 
-1. Clone the repository
-```
- git clone https://github.com/Leyinko/full-stack-js
- ```
+To get started, follow these steps:
 
- 
-2. Navigate to the project directory
+1. Open your terminal.
+
+2. Run the following command:
+
 ```
-cd full-stack-js
+npm create vite-full-js [project-name]
 ```
 
-3. Install dependencies
+Replace [project-name] with your desired project name. If you don't specify a name, a default name will be used.
+
+3. Once the project is created, navigate to the project directory:
+
+```
+cd [project-name]
+```
+
+4.Install the dependencies:
+
 ```
 npm install
 ```
@@ -61,46 +68,45 @@ npm install
 ### Running the Application
 
 To start the application
+
 ```
 npm run dev
 ```
 
 This will start both the frontend and backend servers.
 
-### Frontend
+### Project Structure
 
-The frontend is a Single Page Application built with Vanilla JavaScript. It uses a custom router to handle navigation without page reloads.
+```
+├── src
+│   ├── client
+│   │   ├── components
+│   │   ├── pages
+│   │   ├── router
+│   │   ├── utils
+│   │   └── main.js
+│   └── server
+│       ├── api
+│       │   ├── controllers
+│       │   └── routes
+│       ├── middlewares
+│       └── main.js
+```
 
-- `src/client/components/`: Directory for frontend components
-- `src/client/pages`: Folder to handle links and pages
-- `src/client/router`: Folder to handle the SPA router
-- `src/client/utils`: Utilities folder containing the customized Fetch function and the DOM Fragment Document function
-- `src/client/main.js`: Entry point for the frontend application
-
-### Backend
-
-The backend is powered by Express and is integrated with the frontend using the vite-express library.
-
-- `src/server/api`: Simple directory for controller and router
-- `src/server/middlewares`: Middlewares folder
-- `src/server/main.js`: Main server file
-
-## 5. Testing Backend
+### Testing Backend
 
 The application includes a Ping/Pong feature for testing the communication between frontend and backend.
 
 ![Backend](https://res.cloudinary.com/drft9abh4/image/upload/v1731142183/Backend_q0bwxc.png)
 
-To test:
 1. Navigate to the Backend section
 2. Enter the "Ping" message
 3. The backend will respond with a "Pong" output
 
-## 6. Customization
+## 5. Customization
 
 You can easily extend the application by:
+
 - Adding new frontend features
 - Creating new API routes
 - Modifying the router to add new pages. A commented Example route is ready to use!
-
-
