@@ -46,7 +46,7 @@ To get started, follow these steps:
 2. Run the following command:
 
 ```
-npm create vite-full-js [project-name]
+npm create vite-full-js@latest [project-name]
 ```
 
 Replace [project-name] with your desired project name. If you don't specify a name, a default name will be used.
