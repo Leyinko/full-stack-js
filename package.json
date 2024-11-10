@@ -19,11 +19,11 @@
     "cross-env": "^7.0.3",
     "express": "^4.18.2",
     "vite-express": "*",
-    "vite-fs-js": "git@github.com:Leyinko/full-stack-js.git"
+    "vite-fs-js": "https://github.com/Leyinko/vite-full-js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leyinko/full-stack-js.git"
+    "url": "git+https://github.com/Leyinko/vite-full-js"
   },
   "keywords": [
     "NPM",
@@ -39,7 +39,7 @@
   "author": "Luca Giro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Leyinko/full-stack-js/issues"
+    "url": "https://github.com/Leyinko/vite-full-js/issues"
   },
-  "homepage": "https://github.com/Leyinko/full-stack-js#readme"
+  "homepage": "https://github.com/Leyinko/vite-full-js#readme"
 }
