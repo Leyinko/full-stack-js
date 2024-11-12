@@ -1,6 +1,6 @@
 {
-  "name": "vite-fs-js",
-  "version": "1.0.5",
+  "name": "vite-full-js",
+  "version": "1.0.0",
   "description": "A quick, full-stack JavaScript application template using Vite and Express for learning and testing purposes, with a pre-configured folder structure for easy setup.",
   "main": "main.js",
   "type": "module",
@@ -19,7 +19,7 @@
     "cross-env": "^7.0.3",
     "express": "^4.18.2",
     "vite-express": "*",
-    "vite-fs-js": "https://github.com/Leyinko/vite-full-js"
+    "vite-full-js": "https://github.com/Leyinko/vite-full-js"
   },
   "repository": {
     "type": "git",
